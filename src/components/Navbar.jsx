@@ -6,7 +6,11 @@ import Logo from '../assets/images/Logo.png';
 
 const Navbar = () => {
   return (
-    <div>Navbar</div>
+    <Stack>
+      <Link>
+       <img src={Logo}/>
+      </Link>
+    </Stack>
   )
 }
 
