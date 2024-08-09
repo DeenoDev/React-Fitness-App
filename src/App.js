@@ -4,6 +4,7 @@ import { Box } from '@mui/material';
 
 
 import './App.css';
+import ExerciseDetail from './pages/ExerciseDetail';
 
 const App = () => {
   return (
