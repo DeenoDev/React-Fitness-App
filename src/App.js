@@ -8,9 +8,11 @@ import './App.css';
 const App = () => {
   return (
     <Box width="400px">
-      Navbar
+      <Navbar />
       <Routes>
-        <Route path='/' />
+        <Route path='/' element={<Home />} />
+        <Route path='/exercise/:id' element={<ExerciseDetail />} />
+
       </Routes>
     </Box>
   )
