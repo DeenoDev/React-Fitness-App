@@ -7,7 +7,12 @@ import './App.css';
 
 const App = () => {
   return (
-    <Box width="400px">App</Box>
+    <Box width="400px">
+      Navbar
+      <Routes>
+        <Route path='/' />
+      </Routes>
+    </Box>
   )
 }
 
