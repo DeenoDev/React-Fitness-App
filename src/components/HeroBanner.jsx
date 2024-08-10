@@ -21,7 +21,7 @@ const HeroBanner = () => {
         Check out the most effective exercises.
       </Typography>
       <Button variant="contained" sx={{background: "#FF2625"}}href="#exercises">Explore Exercises</Button>
-      <img src="" alt="" />
+      <img src={HeroBannerImage} alt="" />
     </Box>
   )
 }
