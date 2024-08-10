@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Stack, Typography } from '@mui/material';
+import { Box, Stack, Typography, Button } from '@mui/material';
 
 const HeroBanner = () => {
   return (
@@ -19,6 +19,7 @@ const HeroBanner = () => {
       <Typography fontSize="22px" lineHeight="35px">
         Check out the most effective exercises.
       </Typography>
+      <Button></Button>
     </Box>
   )
 }
