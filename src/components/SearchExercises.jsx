@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react';
-import {Box, Button, Stack, Textfield, Typography} from '@mui/material';
+import {Box, Button, Stack, TextField, Typography} from '@mui/material';
 
 const SearchExercises = () => {
   return (
@@ -9,6 +9,9 @@ const SearchExercises = () => {
       }} mb="50px" textAlign="center">
         Awesome Exercises You <br /> Should Know
       </Typography>
+      <Box position="relative" mb="72px">
+
+      </Box>
       
     </Stack>
   )
