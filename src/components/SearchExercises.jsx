@@ -3,7 +3,9 @@ import {Box, Button, Stack, Textfield, Typography} from '@mui/material';
 
 const SearchExercises = () => {
   return (
-    <div>SearchExercises</div>
+    <Stack>
+      
+    </Stack>
   )
 }
 
