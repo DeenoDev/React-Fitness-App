@@ -22,6 +22,9 @@ const SearchExercises = () => {
           onChange={(e) => {}}
           placeholder='Search Exercises'
           type='text' />
+          <Button>
+            
+          </Button>
 
       </Box>
     </Stack>
