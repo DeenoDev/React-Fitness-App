@@ -10,9 +10,9 @@ const SearchExercises = () => {
         Awesome Exercises You <br /> Should Know
       </Typography>
       <Box position="relative" mb="72px">
+        <TextField />
 
       </Box>
-      
     </Stack>
   )
 }
