@@ -22,8 +22,15 @@ const SearchExercises = () => {
           onChange={(e) => {}}
           placeholder='Search Exercises'
           type='text' />
-          <Button>
-            
+          <Button className='search-btn'
+          sx={{
+            bgcolor: '#FF2625',
+            color: '#FFF',
+            textTransform: 'none',
+            width: { lg: '175px', xs: '80px'},
+          }}>
+            Search
+
           </Button>
 
       </Box>
