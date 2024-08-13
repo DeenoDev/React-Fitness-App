@@ -1,13 +1,14 @@
-export const options = {
-	method: 'GET',
-	hostname: 'exercisedb.p.rapidapi.com',
-	port: null,
-	path: '/status',
-	headers: {
-		'x-rapidapi-key': process.env.REACT_APP_RAPID_KEY,
-		'x-rapidapi-host': 'exercisedb.p.rapidapi.com'
-	}
-};
+
+
+let process = {};
+
+export const exerciseOptions = {
+    method: 'GET',
+    headers: {
+      'X-RapidAPI-Host': 'exercisedb.p.rapidapi.com',
+      'X-RapidAPI-Key': import.meta.env.REACT_APP_RAPID_API_KEY,
+    },
+  };
 
 export const fetchData = async (url, options) => {
     const response = await fetch(url, options);
