@@ -4,7 +4,7 @@ export const options = {
 	port: null,
 	path: '/status',
 	headers: {
-		'x-rapidapi-key': 'a639bef369mshec6281b26de6741p12fecdjsn24e8017a80a0',
+		'x-rapidapi-key': process.env.REACT_APP_RAPID_KEY,
 		'x-rapidapi-host': 'exercisedb.p.rapidapi.com'
 	}
 };
