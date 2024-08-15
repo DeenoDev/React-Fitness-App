@@ -79,7 +79,7 @@ const SearchExercises = () => {
         width: '100%',
         p: '20px'
       }}>
-        <HorizontalScrollbar data={fetchExercisesData}/>
+        <HorizontalScrollbar data={bodyParts}/>
 
       </Box>
     </Stack>
