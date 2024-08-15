@@ -5,8 +5,13 @@ const HorizontalScrollbar = () => {
   return (
     <div>
         {data.map((item) =>
-        <Box>
+        <Box
+          key={item.id || item}
+          itemId={item.id || item}
+          title={item.id || item}>
+    
 
+         
         </Box>)}
     </div>
   )
