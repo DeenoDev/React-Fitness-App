@@ -4,6 +4,8 @@ import {Box, Button, Stack, TextField, Typography} from '@mui/material';
 import { exerciseOptions, fetchData } from '../utils/fetchData';
 import { HorizontalRule } from '@mui/icons-material';
 
+import HorizontalScrollbar from './HorizontalScrollbar';
+
 const SearchExercises = () => {
   const [search, setSearch] = useState('');
   const [exercises, setExercises] = useState([]);
