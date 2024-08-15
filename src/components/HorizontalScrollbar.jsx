@@ -12,9 +12,7 @@ const HorizontalScrollbar = ({data}) => {
           m="0 40px"
         >
             {item}
-    
-
-         
+            
         </Box>))}
     </div>
   )
