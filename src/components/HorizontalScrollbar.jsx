@@ -1,5 +1,6 @@
 import { Box } from '@mui/material';
 import React from 'react';
+import { ScrollMenu, VisibilityContext } from 'react-horizontal-scrolling-menu';
 import BodyPart from './BodyPart';
 
 const HorizontalScrollbar = ({data, bodyPart, setBodyPart}) => {
