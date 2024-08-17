@@ -20,7 +20,7 @@ const Exercises = ({ exercises, setExercises, bodyPart }) => {
        <Stack direction="row" sx={{ gap: { lg: '110px', xs: '50px'}}}
         flexWrap="wrap" justifyContent="center">
           {exercises.map((exercise, index) => (
-            <p>{exercise.name}</p>
+            <ExerciseCard/>
           ))}
 
        </Stack>
