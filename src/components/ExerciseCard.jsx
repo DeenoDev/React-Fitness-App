@@ -4,7 +4,9 @@ import {  Button, Stack, Typography } from '@mui/material';
 
 const ExerciseCard = () => {
   return (
-    <div>ExerciseCard</div>
+    <Link to={`/exercise/${exercise.id}`}>
+    
+    </Link>
   )
 }
 
