@@ -11,7 +11,7 @@ const Exercises = ({ exercises, setExercises, bodyPart }) => {
     sx={{mt: {lg: '110px'}}}
     mt="50px"
     p="20px">
-      <Typography>
+      <Typography variant='h3' mb="46px">
         Showing Results
       </Typography>
         
