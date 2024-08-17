@@ -11,6 +11,9 @@ const Exercises = ({ exercises, setExercises, bodyPart }) => {
     sx={{mt: {lg: '110px'}}}
     mt="50px"
     p="20px">
+      <Typography>
+        Showing Results
+      </Typography>
         
 
     </Box>
