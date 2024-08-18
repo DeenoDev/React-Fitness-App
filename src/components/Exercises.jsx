@@ -7,7 +7,8 @@ import { exerciseOptions, fetchData } from '../utils/fetchData';
 
 
 const Exercises = ({ exercises, setExercises, bodyPart }) => {
-  console.log(exercises);
+   
+  const [currentPage, setcurrentPage] = useState(1);
 
   return (
     <Box id="exercises" 
