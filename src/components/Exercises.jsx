@@ -25,7 +25,14 @@ const Exercises = ({ exercises, setExercises, bodyPart }) => {
        </Stack>
        <Stack mt="100px" alignItems="center">
         {exercises.length > 9 && (
-          <Pagination/>
+          <Pagination
+            color='standard'
+            shape='rounded'
+            defaultPage={1}
+            count={Math.ceil(exercises.length/9)}
+            page={currentPage}
+            onChange={paginate}
+            size="large"/>
         )}
 
 
