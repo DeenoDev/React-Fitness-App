@@ -9,6 +9,7 @@ import { exerciseOptions, fetchData } from '../utils/fetchData';
 const Exercises = ({ exercises, setExercises, bodyPart }) => {
    
   const [currentPage, setcurrentPage] = useState(1);
+  const exercisesPerPage = 9;
 
   return (
     <Box id="exercises" 
