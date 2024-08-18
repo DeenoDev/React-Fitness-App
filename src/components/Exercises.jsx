@@ -31,7 +31,7 @@ const Exercises = ({ exercises, setExercises, bodyPart }) => {
             color='standard'
             shape='rounded'
             defaultPage={1}
-            count={Math.ceil(exercises.length/9)}
+            count={Math.ceil(exercises.length/exercisesPerPage)}
             page={currentPage}
             onChange={paginate}
             size="large"/>
