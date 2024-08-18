@@ -22,12 +22,12 @@ const Exercises = ({ exercises, setExercises, bodyPart }) => {
           {exercises.map((exercise, index) => (
             <ExerciseCard key={index} exercise={exercise}/>
           ))}
-
        </Stack>
+       <Stack>
         
-
+       </Stack>
     </Box>
-  )
+  );
 }
 
 export default Exercises
