@@ -20,6 +20,17 @@ const Exercises = ({ exercises, setExercises, bodyPart }) => {
     window.scrollTo({ top: 1800, behavior: 'smooth'})
   }
 
+  useEffect(() => {
+    const fetchExercisesData = async() => {
+      let exercisesData = [];
+
+      if(bodyPart === 'all'){
+        exercisesData = await fetchData('https://exercisedb.p.rapidapi.com/exercises/bodyPartList', exerciseOptions);
+      }
+    }
+  }, [bodyPart])
+  
+
   return (
     <Box id="exercises" 
     sx={{mt: {lg: '110px'}}}
