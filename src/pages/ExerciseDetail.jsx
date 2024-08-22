@@ -13,6 +13,8 @@ const ExerciseDetail = () => {
   const { id } = useParams();
   useEffect(() => {
     const fetchExercisesData = async() => {
+      const exerciseDbUrl = 'https://exercisedb.p.rapidapi.com';
+      const youtubeSearchUrl = 'https://youtube-search-and-download.p.rapidapi.com';
 
     }
     fetchExercisesData();
