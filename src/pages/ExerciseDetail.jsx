@@ -10,10 +10,19 @@ import SimilarExercises from '../components/SimilarExercises';
 
 const ExerciseDetail = () => {
   const [exerciseDetail, setexerciseDetail] = useState({});
+  const { id } = useParams();
+  useEffect(() => {
+    const fetchExercisesData = async() => {
+
+    }
+    fetchExercisesData();
   
+  }, [id]);
+  
+
   return (
     <Box>
-      <Detail exerciseDetail={}/>
+      <Detail exerciseDetail={exerciseDetail}/>
       <ExerciseVideos />
       <SimilarExercises />
     </Box>
