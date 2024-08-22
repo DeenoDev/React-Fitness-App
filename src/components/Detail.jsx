@@ -9,7 +9,8 @@ const Detail = ({ exerciseDetail }) => {
 
 
   return (
-    <Stack>
+    <Stack gap="60px" sx={{flexBasis: {lg: 'row' }, p: '20px', alignItems: 'center'}}>
+
         
     </Stack>
   )
