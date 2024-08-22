@@ -9,9 +9,11 @@ import ExerciseVideos from '../components/ExerciseVideos';
 import SimilarExercises from '../components/SimilarExercises';
 
 const ExerciseDetail = () => {
+  const [exerciseDetail, setexerciseDetail] = useState({});
+  
   return (
     <Box>
-      <Detail />
+      <Detail exerciseDetail={}/>
       <ExerciseVideos />
       <SimilarExercises />
     </Box>
