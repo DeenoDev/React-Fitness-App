@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import { Typography, Stack, Box } from '@mui/material';
 
 const Detail = () => {
   return (

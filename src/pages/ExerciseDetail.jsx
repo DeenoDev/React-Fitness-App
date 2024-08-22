@@ -18,6 +18,8 @@ const ExerciseDetail = () => {
 
       const exerciseDetailData = await fetchData(`${exerciseDbUrl}/exercises/${id}`, exerciseOptions);
 
+      setexerciseDetail(exerciseDetailData);
+
     }
     fetchExercisesData();
   
