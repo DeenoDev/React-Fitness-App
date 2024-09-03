@@ -10,6 +10,7 @@ const Detail = ({ exerciseDetail }) => {
 
   return (
     <Stack gap="60px" sx={{flexBasis: {lg: 'row' }, p: '20px', alignItems: 'center'}}>
+      <img src={gifUrl} alt={name} loading='lazy' className='detail-image' />
 
         
     </Stack>
