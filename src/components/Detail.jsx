@@ -16,7 +16,9 @@ const Detail = ({ exerciseDetail }) => {
           {name}
         </Typography>
         <Typography>
-          Exercises keep you strong. 3/4 Sit-Up bup is one of the best exercises to target your abs. It will help you improve your mood and gain energy.
+          Exercises keep you strong. {name} {' '}
+          is one of the best exercises to target your {target}.
+          It will help you improve your mood and gain energy.
         </Typography>
       </Stack> 
     </Stack>
