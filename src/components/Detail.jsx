@@ -37,6 +37,9 @@ const Detail = ({ exerciseDetail }) => {
         </Typography>
         {extraDetail.map((item) =>(
           <Stack key={item.name} direction="row" gap="24px" alignItems="center">
+            <Button>
+              <img src={item.icon} alt="" />
+            </Button>
 
           </Stack>
         ))}
