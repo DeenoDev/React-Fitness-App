@@ -1,6 +1,7 @@
-import React from 'react'
+import React from 'react';
+import {Box, Stack, Typography} from '@mui/material';
 
-const ExerciseVideos = () => {
+const ExerciseVideos = ({ ExerciseVideos, name }) => {
   return (
     <div>ExerciseVideos</div>
   )
