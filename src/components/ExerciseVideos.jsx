@@ -3,7 +3,9 @@ import {Box, Stack, Typography} from '@mui/material';
 
 const ExerciseVideos = ({ ExerciseVideos, name }) => {
   return (
-    <Box>ExerciseVideos</Box>
+    <Box sx={{ margin: {lg: '200px', xs: '20px'}}} p= '20px'>
+      
+    </Box>
   )
 }
 
