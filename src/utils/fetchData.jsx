@@ -7,7 +7,7 @@ export const exerciseOptions = {
     },
   };
 
-  const youtubeOptions = {
+  export const youtubeOptions = {
     method: 'GET',
     headers: {
       'x-rapidapi-key': 'a639bef369mshec6281b26de6741p12fecdjsn24e8017a80a0',
