@@ -8,7 +8,11 @@ const ExerciseVideos = ({ exerciseVideos, name }) => {
         Watch <span style={{color: '#ff2625', textTransform: 'capitalize'}}>{name}</span> exercise videos
 
       </Typography>
-      <Stack justifyContent="flex-start" flexWrap="wrap" alignItems="center">
+      <Stack justifyContent="flex-start" flexWrap="wrap" alignItems="center"
+       sx={{
+         flexDirection: { lg: 'row' },
+         gap: {lg: '110px', xs: '0px'}
+       }}>
 
       </Stack>
       
